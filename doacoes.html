@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sospet.org.br/">
+  <meta property="og:title" content="SOS PET Uberlândia">
+  <meta property="og:description" content="Programa social para castração de cães e gatos">
+  <meta property="og:image" content="./share-img.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://sospet.org.br/">
+  <meta property="twitter:title" content="SOS PET Uberlândia">
+  <meta property="twitter:description" content="Programa social para castração de cães e gatos">
+  <meta property="twitter:image" content="./share-img.png">
+
+  <link rel="stylesheet" href="./css/plugins.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Sobre - SOS Pet - Programa social para castração de cães e gatos</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@500&display=swap" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="navbar-grid container">
+      <div class="logo" data-aos="fade-down">
+        <a href="/">
+          <img alt="" src="./img/logo.svg">
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li data-aos="fade-down" data-aos-delay="100"><a href="./doacoes.html" class="link">Doações</a></li>
+        <li data-aos="fade-down" data-aos-delay="200"><a href="./#faq" class="link">Perguntas frequentes</a></li>
+        <li data-aos="fade-down" data-aos-delay="300"><a href="./sobre.html" class="link">Sobre</a></li>
+        <li data-aos="fade-down" data-aos-delay="400"><a href="./doacoes.html" class="btn-primary">Doe agora</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="p-interna">
+    <div class="container">
+      <h2 data-aos="fade-down" data-aos-delay="100">Doações</h2>
+
+      <p data-aos="fade-down" data-aos-delay="200">
+        Doe uma quantia livre ou selecionada!
+      </p>
+
+      <div class="cards-grid">
+        <div class="d-card" data-aos="fade-down" data-aos-delay="400">
+          <div class="d-card-icone d-card-blue">
+            <img src="./img/icon-heart.svg" alt="Icone">
+          </div>
+
+          <div class="d-card-content">
+            <h2>Quantia livre</h2>
+
+            <h3>R$ 00,00</h3>
+
+            <p>
+              Aqui você nos ajuda com a quantia que cabe no seu bolso ou no seu coração! Qualquer valor será uma grande ajuda.
+            </p>
+
+            <a href="#" class="btn-primary" data-modal="m-livre" data-js="button-modal">Doar agora</a>
+          </div>
+        </div>
+        <div class="d-card" data-aos="fade-down" data-aos-delay="500">
+          <div class="d-card-icone d-card-green">
+            <img src="./img/icon-food.svg" alt="Icone">
+          </div>
+
+          <div class="d-card-content">
+            <h2>Ração</h2>
+
+            <h3>R$ 98,90</h3>
+
+            <p>
+              Com esse valor você nos ajuda a comprar uma saca grande de ração que alimenta nossos anjinhos.
+            </p>
+
+            <a href="./doacoes.html" class="btn-primary" data-modal="m-racao" data-js="button-modal">Doar agora</a>
+          </div>
+        </div>
+        <div class="d-card" data-aos="fade-down" data-aos-delay="600">
+          <div class="d-card-icone d-card-purple">
+            <img src="./img/icon-doc.svg" alt="Icone">
+          </div>
+
+          <div class="d-card-content">
+            <h2>Cirurgia de castração</h2>
+
+            <h3>R$ 150,00</h3>
+
+            <p>
+              Com esse valor você nos ajuda com a cirurgia de castração que diminui o número de animais nas ruas.
+            </p>
+
+            <a href="./doacoes.html" class="btn-primary" data-modal="m-castracao" data-js="button-modal">Doar agora</a>
+          </div>
+        </div>
+      </div>
+
+      <h2 data-aos="fade-down" data-aos-delay="100">Gostaria de nos apoiar mensalmente?</h2>
+
+      <p data-aos="fade-down" data-aos-delay="200">
+        Conheça nossos planos de doações mensais
+      </p>
+
+
+
+      <div class="btn-container" data-aos="fade-down" data-aos-delay="300">
+        <a href="https://apoia.se/sospetuberlandia" class="btn-outline-pink">Saiba Mais</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modais -->
+  <div class="m_doacao" data-modal="m-livre">
+    <div class="m_doacao__overlay"></div>
+    <div class="m_doacao__content">
+      <figure>
+        <img src="./img/qrcode-livre.png" alt="QR Code">
+      </figure>
+
+      <h2>Quantia livre</h2>
+      <p>Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
+
+      <button class="btn-primary" data-js="button-close">
+        Finalizar
+      </button>
+    </div>
+  </div>
+
+  <div class="m_doacao" data-modal="m-racao">
+    <div class="m_doacao__overlay"></div>
+    <div class="m_doacao__content">
+      <figure>
+        <img src="./img/qrcode-racao.png" alt="QR Code">
+      </figure>
+
+      <h2>Ração</h2>
+      <p>Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
+
+      <button class="btn-primary" data-js="button-close">
+        Finalizar
+      </button>
+    </div>
+  </div>
+
+  <div class="m_doacao" data-modal="m-castracao">
+    <div class="m_doacao__overlay"></div>
+    <div class="m_doacao__content">
+      <figure>
+        <img src="./img/qrcode-castracao.png" alt="QR Code">
+      </figure>
+
+      <h2>Cirurgia de castração</h2>
+      <p>Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
+
+      <button class="btn-primary" data-js="button-close">
+        Finalizar
+      </button>
+    </div>
+  </div>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>

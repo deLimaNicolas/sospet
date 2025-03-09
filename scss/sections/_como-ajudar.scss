@@ -1,0 +1,76 @@
+.background-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 700px;
+}
+
+.bg-element-3-icon {
+    position: absolute;
+    height: 131%;
+    width: 58.5%;
+    top: 0;
+    bottom: -23.43%;
+    left: -12.37%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.image-como-ajudar {
+    width: 680px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 24px;
+    height: 404px;
+    object-fit: cover;
+}
+
+.s-como-ajudar-title {
+    font-size: 40px;
+    line-height: 60px;
+    color: #99021e;
+    font-weight: 700;
+}
+
+.s-como-ajudar-description {
+    max-width: 470px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #474d66;
+    font-size: 18px;
+}
+
+.text {
+    position: relative;
+    line-height: 24px;
+}
+
+.s-como-ajudar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.s-como-ajudar-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.s-como-ajudar {
+    width: 100%;
+    position: relative;
+    background: rgba(232, 252, 194, 0.8) url('../img/como-ajudar-bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 150px 0;
+    overflow: hidden;
+}

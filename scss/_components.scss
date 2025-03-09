@@ -1,0 +1,77 @@
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+}
+
+.btn-primary {
+    width: 198px;
+    line-height: 24px;
+    border-radius: 8px;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background-color: transparent;
+        border-color: var(--pink);
+        color: var(--pink);
+        transition: all 0.5s ease;
+    }
+}
+
+.btn-outline {
+    font-family: var(--inter);
+    line-height: 24px;
+    width: 202px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background-color: white;
+        color: var(--pink);
+        transition: all 0.5s ease;
+    }
+}
+
+.btn-outline-pink {
+    font-family: var(--inter);
+    line-height: 24px;
+    width: 202px;
+    border-radius: 8px;
+    border: 2px solid var(--pink);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--pink);
+    transition: all 0.5s ease;
+    font-weight: 300;
+
+    &:hover {
+        background-color: var(--pink);
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+}

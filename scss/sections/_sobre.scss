@@ -1,0 +1,78 @@
+.bg-element-1-icon {
+    position: absolute;
+    height: 65.11%;
+    width: 54.65%;
+    top: -17%;
+    right: 47.08%;
+    bottom: 51.89%;
+    left: -1.74%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bg-element-2-icon {
+    position: absolute;
+    height: 66.5%;
+    width: 57.22%;
+    top: 18%;
+    right: 0%;
+    bottom: 15.5%;
+    left: 42.78%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.s-sobre-titulo {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #99021e;
+}
+
+.s-sobre-description {
+    position: relative;
+    line-height: 28px;
+    font-weight: 500;
+    color: #474d66;
+    font-size: 18px;
+}
+
+.s-sobre-text {
+    position: relative;
+    line-height: 24px;
+}
+
+.s-sobre-content {
+    max-width: 494px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.image-sobre {
+    width: 664px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 24px;
+    height: 331px;
+    object-fit: cover;
+}
+
+.s-sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.s-sobre {
+    width: 100%;
+    position: relative;
+    background-color: rgba(232, 252, 194, 0.8);
+    min-height: 700px;
+    overflow: hidden;
+    padding: 190px 0;
+}

@@ -1,0 +1,70 @@
+.m_doacao {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: none;
+    place-items: center;
+
+    &__overlay {
+        position: absolute;
+        background-color: rgba(28, 30, 29, 0.6);
+        width: 100vw;
+        height: 100vh;
+        z-index: 20;
+    }
+
+    &__content {
+        max-width: 500px;
+        min-width: 320px;
+        min-height: 300px;
+        border-radius: 8px;
+        border: 1px solid #E5E7EB;
+        background: var(--white, #FFF);
+        box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.10), 0px 2px 4px -2px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        padding: 24px;
+        z-index: 21;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+
+        figure {
+            margin: 0;
+            padding: 8px;
+            background: var(--pink);
+            border-radius: 8px;
+            width: 200px;
+            min-height: 200px;
+            margin: 32px auto;
+            display: grid;
+            place-items: center;
+        }
+
+        img {
+            width: 150px;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+        .btn-primary {
+            margin: 18px auto;
+        }
+
+        @media (max-width: 768px) {
+            max-width: 96%;
+            padding: 24px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 150%;
+        }
+    }
+}
+
+.show-modal {
+    display: grid;
+}

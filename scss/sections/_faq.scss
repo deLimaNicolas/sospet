@@ -1,0 +1,115 @@
+.s-faq {
+    padding: 57px 0;
+}
+
+.s-faq-title {
+    color: #D9163B;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.s-faq-list {
+    max-width: 896px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-item {
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+    width: 100%;
+    padding: 40px 38px;
+}
+
+.faq-item-title {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    border: none;
+    outline: none;
+    background: none;
+
+    h3 {
+        color: #101840;
+        font-family: "DM Sans";
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px;
+        transition: all 0.5s ease;
+    }
+
+    &:hover {
+        .faq-item-icon {
+            background: #F36681;
+            color: #FFF;
+            transition: all 0.5s ease;
+        }
+
+        h3 {
+            color: #F36681;
+            transition: all 0.5s ease;
+        }
+    }
+}
+
+.faq-item-icon {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    color: #F36681;
+    box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
+    display: grid;
+    place-items: center;
+    border-radius: 999px;
+    transition: all 0.5s ease;
+
+    svg {
+        transform: scale(0.92);
+    }
+
+}
+
+.faq-item-description {
+    margin-top: 30px;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+
+    p {
+        color: #474D66;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+.faq-item-active {
+    border-radius: 14px;
+    border: 2px solid #F36681;
+    box-shadow: 0px 6px 16px 0px rgba(243, 102, 129, 0.19);
+
+    .faq-item-icon {
+        background: #F36681;
+        color: #FFF;
+
+        svg {
+            transform: scale(0.92) rotate(270deg);
+        }
+    }
+
+    .faq-item-description {
+        opacity: 1;
+        position: static;
+        visibility: visible;
+    }
+}

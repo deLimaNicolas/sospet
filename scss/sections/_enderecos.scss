@@ -1,0 +1,144 @@
+.s-enderecos {
+    width: 100%;
+    background-color: #fafbff;
+    text-align: center;
+    font-size: 40px;
+    padding: 60px 0;
+}
+
+.s-enderecos-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.s-enderecos-titulo {
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #101840;
+    margin-bottom: 30px;
+}
+
+.endereco-card {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 12px;
+}
+
+.endereco-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.endereco-time {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.endereco-street {
+    width: 209px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.endereco-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.btn {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+    &:hover {
+        transition: all 0.5s ease;
+        color: white;
+    }
+}
+
+.endereco-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.endereco-card-blue {
+    background-color: rgba(185, 230, 255, 0.2);
+    color: rgba(20, 138, 204, 0.8);
+}
+
+.title-blue {
+    color: #148acc;
+}
+
+.btn-blue {
+    border: 1px solid #148acc;
+    color: #148acc;
+
+    &:hover {
+        transition: all 0.5s ease;
+        background-color: #148acc;
+        color: white;
+    }
+}
+
+.endereco-card-green {
+    background-color: rgba(112, 248, 186, 0.2);
+    color: rgba(31, 153, 96, 0.8);
+}
+
+.title-green {
+    color: #1f9960;
+}
+
+.btn-green {
+    border: 1px solid #1f9960;
+    color: #1f9960;
+
+    &:hover {
+        transition: all 0.5s ease;
+        background-color: #1f9960;
+        color: white;
+    }
+}
+
+.endereco-card-purple {
+    background-color: rgba(115, 83, 186, 0.2);
+    color: rgba(67, 31, 153, 0.8);
+}
+
+.btn-purple {
+    border: 1px solid #431f99;
+    color: #431f99;
+
+    &:hover {
+        transition: all 0.5s ease;
+        background-color: #431f99;
+        color: white;
+    }
+}
+
+.title-purple {
+    color: rgba(67, 31, 153, 0.8);
+}
