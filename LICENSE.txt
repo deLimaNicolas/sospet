@@ -1,0 +1,20 @@
+Compassionate Code License (CCL 1.0)
+
+Copyright (c) [2025] [Your Name]
+
+Permission is hereby granted, free of charge, to any person or organization (the "User") obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, and distribute the Software, exclusively for the purpose of helping abandoned animals or supporting nonprofit, charitable, or humanitarian efforts.
+
+Conditions:
+
+Nonprofit Use Only – The Software may not be used by or for the benefit of any commercial or for-profit entity.
+Animal Welfare Focus – Use must be meaningfully related to the protection, rescue, care, or support of abandoned, homeless, or vulnerable animals.
+No Warranty – The Software is provided "as is", without warranty of any kind, express or implied.
+Attribution – You must retain this license and give reasonable attribution to the original author.
+Prohibited Uses:
+
+Use by corporations or commercial entities.
+Use unrelated to nonprofit or charitable animal-related causes.
+Selling or profiting from the Software directly or indirectly.
+Optional but appreciated: If you build something meaningful with this code, I’d love to hear about it or collaborate. Let’s make the world a little better for our furry (or feathery, or scaly) friends.
+
+
