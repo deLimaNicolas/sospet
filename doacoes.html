@@ -69,7 +69,6 @@
 
           <div class="d-card-content">
             <h2>Quantia livre</h2>
-
             <h3>R$ 00,00</h3>
 
             <p>
@@ -86,7 +85,6 @@
 
           <div class="d-card-content">
             <h2>Ração</h2>
-
             <h3>R$ 98,90</h3>
 
             <p>
@@ -103,7 +101,6 @@
 
           <div class="d-card-content">
             <h2>Cirurgia de castração</h2>
-
             <h3>R$ 150,00</h3>
 
             <p>
@@ -121,8 +118,6 @@
         Conheça nossos planos de doações mensais
       </p>
 
-
-
       <div class="btn-container" data-aos="fade-down" data-aos-delay="300">
         <a href="https://apoia.se/sospetuberlandia" class="btn-outline-pink">Saiba Mais</a>
       </div>
@@ -139,7 +134,7 @@
 
       <h2>Quantia livre</h2>
       <p>Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
-
+      <p class="copyable-pix" onclick="copyToClipboard(this)">00020126360014BR.GOV.BCB.PIX0114303779750001025204000053039865802BR5925INSTITUTO SOSPET UBERLAND6010UBERLANDIA62070503***63043384</p>
       <button class="btn-primary" data-js="button-close">
         Finalizar
       </button>
@@ -155,6 +150,7 @@
 
       <h2>Ração</h2>
       <p>Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
+      <p class="copyable-pix" onclick="copyToClipboard(this)">00020126630014BR.GOV.BCB.PIX0114303779750001020223Doacao Racao 10Kg caes 520400005303986540598.905802BR5925INSTITUTO SOSPET UBERLAND6010UBERLANDIA62180514DoaoRao10Kgces6304F14D</p>
 
       <button class="btn-primary" data-js="button-close">
         Finalizar
@@ -171,6 +167,7 @@
 
       <h2>Cirurgia de castração</h2>
       <p>Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
+      <p class="copyable-pix" onclick="copyToClipboard(this)">00020126630014BR.GOV.BCB.PIX0114303779750001020223Doacao Castracao Social5204000053039865406150.005802BR5925INSTITUTO SOSPET UBERLAND6010UBERLANDIA62210517DoaoCastraoSocial63049D4F</p>
 
       <button class="btn-primary" data-js="button-close">
         Finalizar
@@ -180,6 +177,16 @@
 
   <script src="js/plugins.js"></script>
   <script src="js/all.js"></script>
+  <script>
+    function copyToClipboard(element) {
+      const text = element.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Código PIX copiado para a área de transferência!');
+      }).catch(err => {
+        console.error('Erro ao copiar texto: ', err);
+      });
+    }
+  </script>
 </body>
 
 </html>

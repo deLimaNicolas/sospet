@@ -1333,6 +1333,14 @@ body {
   line-height: 30px;
 }
 
+.faq-item-description li {
+  color: #474D66;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 .faq-item-active {
   border-radius: 14px;
   border: 2px solid #F36681;
@@ -1585,4 +1593,23 @@ body {
 
 .d-card-purple {
   background: #DBD5E9;
+}
+
+.copyable-pix {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: monospace;
+  color: #333;
+}
+
+.copyable-pix:hover {
+  background-color: #e0e0e0;
+}
+
+.copyable-pix:active {
+  background-color: #d0d0d0;
 }
