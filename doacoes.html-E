@@ -41,7 +41,7 @@
     <div class="navbar-grid container">
       <div class="logo" data-aos="fade-down">
         <a href="/">
-          <img alt="" src="./img/logo.png">
+          <img alt="" src="./img/logo.svg">
         </a>
       </div>
       <ul class="nav-links">

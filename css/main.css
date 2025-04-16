@@ -597,8 +597,9 @@ body {
 }
 
 .logo {
-  width: 144px;
-  height: 36px;
+  width: 100px;
+  height: 25px;
+  margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
